@@ -8,25 +8,12 @@ function App() {
     <div>
       <Header />
 
-      <MainContent 
-        title='Transform your brand'
-        text='one two three'
-      />
-
-      <MainContent
-        title='make some chalenges'
-        text='uno, due tre'
-      />
-
-      <MainContent
-        title='lalalalla'
-        text='un, dos tres'
-      />
-
-      <MainContent
-        title='oioioioioi'
-        text='un, dos tres'
-      />
+      <div className='main'>
+        <MainContent
+          title='Transform your brand'
+          text='one two three'
+          />
+        </div>
     </div>
   )
 }

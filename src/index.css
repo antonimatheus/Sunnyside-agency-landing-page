@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+:root {
+/* Colors */
+/* Primary */
+--Softred: hsl(7, 99%, 70%);
+--Yellow: hsl(51, 100%, 49%);
+--DarkDesaturatedCyan /*graphic design text*/: hsl(167, 40%, 24%);
+--DarkBlue /*photography text*/: hsl(198, 62%, 26%);
+--DarkModerateCyan /*footer*/: hsl(168, 34%, 41%);
+
+/* Neutral */
+--VeryDarkDesaturatedBlue: hsl(212, 27%, 19%);
+--VeryDarkGrayishBlue: hsl(213, 9%, 39%);
+--DarkGrayishBlue: hsl(232, 10%, 55%);
+--GrayishBlue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+
+/* Font */
+--Font-Barlow: 'Barlow', sans-serif; /* - Weights: 600 */
+--Font-Fraunces: 'Fraunces', serif; /* - Weights: 700, 900 */
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -9,20 +33,25 @@ body {
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--Font-Barlow);
+  font-size: 18px;
 }
 
 .main {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  background-color: green;
+  flex-wrap: wrap;
 }
 
 .mainContent--div {
   display: flex;
   flex-direction: column;
-  background-color: red;
-  width: 50%;
+  width: 50vw;
   height: 400px;
-  margin: 10px;
+  border: 1px solid black;
+}
+
+.mainContent--div h2 {
+  color: lightcoral;
 }
