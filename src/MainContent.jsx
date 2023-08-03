@@ -2,11 +2,12 @@ import React from 'react'
 
 function MainContent(props) {
     return (
-        <>
-            <h2> name: {props.name}</h2>
-            <h2> age: {props.age}</h2>
-            <h2> job: {props.job}</h2>
-        </>
+        <div className='main'>
+            <div className='mainContent--div'>
+                <h2>name: {props.title}</h2>
+                <p>{props.text}</p>
+            </div>
+        </div>
     )
 }
 
