@@ -8,7 +8,6 @@ function MainContent(props) {
                 <p>{props.text}</p>
                 <input type="button" value={props.input} />
             </div>
-            
         </div>
     )
 }

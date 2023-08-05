@@ -62,7 +62,7 @@ body {
 }
 
 .DivInternal h1 {
-  font-family: var(--);
+  font-family: var(--Font-Fraunces);
   font-weight: 600;
   font-size: 40px;
   color: black;
@@ -75,22 +75,47 @@ body {
 
 .DivInternal input {
   width: 125px;
-  font-size: 16px;
-  border: none;
-  text-transform: uppercase;
+  padding: 8px;
   font-family: var(--Font-Fraunces);
-  background-color: var(--Softred) ;
-  
+  font-size: 15px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all .5s;
 }
 
-mainContentImg--div {
+.Block1 {
+  display: flex;
+}
 
+.Block1 input {
+  background-color: rgba(250, 212, 0, 0.4);
+}
+
+.Block1 input:hover {
+  background-color: var(--Yellow);
+}
+
+.Block4 {
+  display: flex;
+}
+
+.Block4 input {
+  background-color: rgba(254, 120, 103, 0.4);
+}
+
+.Block4 input:hover{
+  background-color: var(--Softred);
+}
+
+.mainContentImg--div {
+  width: 50vw;
 }
 
 .ImgProps {
+  display: flex;
   width: 50vw;
-  margin-bottom: -2px;
-
 }
 
 

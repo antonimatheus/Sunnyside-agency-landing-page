@@ -2,8 +2,8 @@
     width: 100vw;
     height: 100vh;
     background: url(assets/images/desktop/image-header.jpg);
-    background-position: center;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
@@ -22,18 +22,33 @@
 h1 {
     display: flex;
     justify-content: center;
-    letter-spacing: 5px;
-    color: white;
-    text-transform: uppercase;
+    margin-top: 100px;
     font-family: var(--Font-Fraunces);
     font-size: 50px;
-    margin-top: 100px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
 }
 
 .arrow--down {
     position: absolute;
     top: 47%;
-    left: 50%
+    left: 50%;
+    animation: 1.5s ease-in-out motion infinite alternate;
+}
+
+@keyframes motion {
+    0% {
+        position: absolute;
+        top: 49%;
+        left: 50%;
+    }
+
+    100% {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+    }
 }
 
 nav {
@@ -63,17 +78,18 @@ a:hover {
 .contact--btn {
     display: flex;
     margin-top: -10px;
-    border-radius: 18px;
     padding: 12px 20px 12px 20px;
+    font-family: var(--Font-Fraunces);
     font-size: 18px;
     border: none;
-    font-family: var(--Font-Fraunces);
+    border-radius: 18px;
     color: black;
     background-color: white;
+    cursor: pointer;
     transition: .5s;
 }
 
 .contact--btn:hover {
-    background-color: hsla(211, 27%, 44%, 0.192);
+    background-color: rgb(114, 206, 253);
     color: white;
 }
