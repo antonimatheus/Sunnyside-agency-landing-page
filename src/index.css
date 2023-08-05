@@ -41,6 +41,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .mainContent--div {
@@ -90,7 +91,7 @@ body {
 }
 
 .Block1 input {
-  background-color: rgba(250, 212, 0, 0.4);
+  background-color: rgba(250, 212, 0, 0.3);
 }
 
 .Block1 input:hover {
@@ -102,7 +103,7 @@ body {
 }
 
 .Block4 input {
-  background-color: rgba(254, 120, 103, 0.4);
+  background-color: rgba(254, 120, 103, 0.3);
 }
 
 .Block4 input:hover{
@@ -118,4 +119,47 @@ body {
   width: 50vw;
 }
 
+.MainContentTwo {
+  display: flex;
+  flex-direction: row;
+  height: 630px;
+  margin: 0 auto;
+}
 
+.MainContentTwoBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 420px;
+  height: 550px;
+  gap: 25px;
+}
+
+.MainContentTwo h1 {
+  font-size: 25px;
+  color: #1E564B;
+}
+
+.MainContentTwo p {
+  line-height: 30px;
+  text-align: center;
+  color: #1e564bc0;
+}
+
+.MainContentTwo1 {
+  display: flex;
+  width: 50vw;
+  background: url(assets/images/desktop/image-graphic-design.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.MainContentTwo2 {
+  display: flex;
+  width: 50vw;
+  background: url(assets/images/desktop/image-photography.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
