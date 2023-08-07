@@ -19,7 +19,7 @@
     width: 160px;
 }
 
-h1 {
+.header h1 {
     display: flex;
     justify-content: center;
     margin-top: 100px;
