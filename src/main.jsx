@@ -8,11 +8,3 @@ ReactDOM.createRoot(
   document.getElementById('root')).render(
     <App />
 )
-
-/*
-
-  About
-  Services
-  Projects
-  Contact
-  */

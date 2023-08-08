@@ -5,6 +5,8 @@ import MainContent from './MainContent'
 import MainContentImg from './MainContentImg'
 import MainContentTwo from './MainContentTwo'
 import ClientTestimonials from './ClientTestimonials'
+import FooterImg from './FooterImg'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -75,7 +77,20 @@ function App() {
           </div>
         </div>
 
+        <div className='FooterImgBlock'>
+          <FooterImg
+          footerImg_one='./src/assets/images/desktop/image-gallery-milkbottles.jpg'
+          footerImg_two='./src/assets/images/desktop/image-gallery-orange.jpg'
+          footerImg_three='./src/assets/images/desktop/image-gallery-cone.jpg'
+          footerImg_four='./src/assets/images/desktop/image-gallery-sugarcubes.jpg'
+          />
         </div>
+
+        <div className='FooterBlock'>
+          <Footer />
+        </div>
+        
+      </div>
     </div>
   )
 }
