@@ -35,21 +35,15 @@ body {
   height: 100vh;
   font-size: 18px;
   font-family: var(--Font-Barlow);
-}
-
-.main {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+  /*overflow-x: hidden;*/
 }
 
 .mainContent--div {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 50vw;
+  min-width: 50vw;
   /*background-color: red;*/
 }
 
@@ -57,8 +51,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50%;/*465px*/
-  height: 60%;/*480px*/
+  width: 466px;
+  height: 466px;
   gap: 35px;
   /*background-color: blue;*/
 }
@@ -88,33 +82,9 @@ body {
   transition: all .5s;
 }
 
-.Block1 {
-  display: flex;
-}
-
-.Block1 input {
-  background-color: rgba(250, 212, 0, 0.3);
-}
-
-.Block1 input:hover {
-  background-color: var(--Yellow);
-}
-
-.Block4 {
-  display: flex;
-}
-
-.Block4 input {
-  background-color: rgba(254, 120, 103, 0.3);
-}
-
-.Block4 input:hover{
-  background-color: var(--Softred);
-}
-
 .mainContentImg--div {
   display: flex;
-  width: 50%;
+  min-width: 50%;
 }
 
 .ImgProps {
@@ -125,6 +95,8 @@ body {
 .MainContentTwo {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  min-width: 100%;
   height: 630px;
   margin: 0 auto;
 }
@@ -152,41 +124,10 @@ body {
   color: #1e564bc0;
 }
 
-.MainContentTwo1 {
-  display: flex;
-  width: 50vw;
-  background: url(assets/images/desktop/image-graphic-design.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.MainContentTwo2 {
-  display: flex;
-  width: 50vw;
-  background: url(assets/images/desktop/image-photography.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.ClientTestimonialsBlock{
+.ClientTestimonialsBlock {
   display: flex;
   width: 100%;
   flex-direction: row;
-}
-
-.ClientTestimonials--AppBlock {
-  display: flex;
-  justify-content: center;
-}
-
-.ClientTestimonials--App {
-  display: flex;
-  flex-direction: column;
-  /*background-color: red;*/
-  width: 100%;
-  align-items: center;
 }
 
 .ClientTestimonials--App h1 {
@@ -195,9 +136,7 @@ body {
   font-weight: 900;
   letter-spacing: 8px;
   text-transform: uppercase;
-  margin-top: 150px;
   margin-bottom: 50px;
-  
   color: rgba(0, 0, 0, 0.3);
 }
 
@@ -211,10 +150,8 @@ body {
   flex-direction: column;
   align-items: center;
   /*background-color: green;*/
-  width: 24%;
-  margin-right: 40px;
-  margin-top: 60px;
-  margin-bottom: 150px;
+  width: 340px;
+  margin: 35px 40px 35px 0px;
   gap: 50px;
 }
 
@@ -242,19 +179,68 @@ body {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.FooterImgBlock {
-  display: flex;
-  width: 100%;
-}
-
-.FooterImg img {
-  width: 25%;
-  
-}
-
 .FooterImg {
   display: flex;
   width: 100%;
   height: 100%;
   background-color: red;
+  
+}
+
+.FooterImg div {
+  display: flex;
+  background-color: green;
+  width: 379px;
+}
+
+.FooterImg img {
+  width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+
+  .mainContent--div {
+    display: flex;
+    width: 100vw;
+    /*background-color: red;*/
+  }
+
+  .DivInternal h1 {
+    text-align: center;
+  }
+
+  .DivInternal p {
+    text-align: center;
+  }
+
+  .DivInternal input {
+    margin: 0 auto;
+  }
+
+  .mainContentImg--div {
+    display: flex;
+    min-width: 100%;
+  }
+  
+  .ImgProps {
+    display: flex;
+    width: 100vw;
+  }
+
+  .MainContentTwo {
+    width: 100vw;
+  }
+
+  .FooterImg {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .FooterImg div {
+    width: 50vw;
+  }
+
+  .FooterImg img {
+    width: 50vw;
+  }
 }

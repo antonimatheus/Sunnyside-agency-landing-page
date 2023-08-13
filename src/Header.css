@@ -3,7 +3,7 @@
     height: 100vh;
     background: url(assets/images/desktop/image-header.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
 }
 
@@ -93,4 +93,22 @@ a:hover {
 .contact--btn:hover {
     background-color: rgb(114, 206, 253);
     color: white;
+}
+
+.burguer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+}
+
+.burguer img{
+    width: 30px;
+}
+
+@media screen and (max-width: 950px) {
+    .header h1 {
+        text-align: center;
+    }
 }

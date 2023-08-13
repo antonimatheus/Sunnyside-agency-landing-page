@@ -1,0 +1,108 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.main--block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Block1 {
+    display: flex;
+}
+
+.Block1 input {
+    background-color: rgba(250, 212, 0, 0.3);
+}
+
+.Block1 input:hover {
+    background-color: var(--Yellow);
+}
+
+.Block2 {
+    display: flex;
+}
+
+.Block4 {
+    display: flex;
+}
+
+.Block4 input {
+    background-color: rgba(254, 120, 103, 0.3);
+}
+
+.Block4 input:hover{
+    background-color: var(--Softred);
+}
+
+.Main2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.MainContentTwo1 {
+    display: flex;
+    min-width: 50%;
+    background: url(assets/images/desktop/image-graphic-design.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.MainContentTwo2 {
+    display: flex;
+    min-width: 50%;
+    background: url(assets/images/desktop/image-photography.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.ClientTestimonials--App {
+    display: flex;
+    flex-direction: column;
+    /*background-color: red;*/
+    width: 100%;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.ClientTestimonials--AppBlock {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+
+.FooterImgBlock {
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (max-width: 950px) {
+
+    .main--block {
+        flex-direction: column-reverse;
+    }
+
+    .Block1 {
+        order: -1;
+    }
+
+    .Block2 {
+        order: 1;
+    }
+
+    .Block3{
+        order: -3;
+    }
+
+    .Block4{
+        order: -4;
+    }
+}
