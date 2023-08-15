@@ -26,6 +26,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  animation: .5s opacity;
 }
 
 body {
@@ -36,6 +37,16 @@ body {
   font-size: 18px;
   font-family: var(--Font-Barlow);
   /*overflow-x: hidden;*/
+}
+
+@keyframes opacity {
+  0% {
+      opacity: .5;
+  }
+
+  100% {
+      opacity: 1;
+  }
 }
 
 .mainContent--div {
