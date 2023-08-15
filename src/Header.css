@@ -95,16 +95,20 @@ a:hover {
     color: white;
 }
 
-.burguer {
+.burger {
     display: none;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    background-color: red;
+    ;/*background-color: red*/
 }
 
-.burguer img{
+.burger img{
     width: 30px;
+}
+
+.burger_Display {
+    display: none;
 }
 
 @media screen and (max-width: 950px) {
@@ -112,12 +116,51 @@ a:hover {
         text-align: center;
     }
 
-    .burguer {
+    .burger {
         display: flex;
     }
 
-    .burguerDisplay {
-        width: 100px;
+    .burger_Display {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 410px;
+        height: 410px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        background-color: white;
+    }
+
+    .burger_Display ul {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+
+    .burger_Display ul > li > a {
+        display: flex;
+        justify-content: center;
+        font-size: 23px;
+        margin-top: 30px;
+        color: rgba(0, 0, 0, 0.678);
+    }
+
+    .contact--btn {
+        display: flex;
+        justify-content: center;
+        font-size: 23px;
+        margin-top: 30px;
+        background-color: hsl(51, 100%, 49%);
+    }
+
+    .contact--btn:hover {
+        color: black;
+        background-color: hsla(51, 100%, 49%, 0.637);
     }
 
     .nav {

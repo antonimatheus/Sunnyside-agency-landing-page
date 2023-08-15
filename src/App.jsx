@@ -25,12 +25,12 @@ function App() {
           </div>
           <div className='Block2'>
             <MainContentImg
-              img='./src/assets/images/desktop/image-transform.jpg'
+              img='../src/assets/images/desktop/image-transform.jpg'
             />
           </div>
           <div className='Block3'>
             <MainContentImg
-              img='./src/assets/images/desktop/image-stand-out.jpg'
+              img='../src/assets/images/desktop/image-stand-out.jpg'
             />
           </div>
           <div className='Block4'>
@@ -60,19 +60,19 @@ function App() {
           <h1>Client testimonials</h1>
           <div className='ClientTestimonials--AppBlock'>
             <ClientTestimonials
-            img='./src/assets/images/image-emily.jpg'
+            img='../src/assets/images/image-emily.jpg'
             description='We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.'
             name='Emily R.'
             job='Marketing Director'
             />
             <ClientTestimonials
-            img='./src/assets/images/image-thomas.jpg'
+            img='../src/assets/images/image-thomas.jpg'
             description='Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.'
             name='Thomas S.'
             job='Chief Operating Officer'
             />
             <ClientTestimonials
-            img='./src/assets/images/image-jennie.jpg'
+            img='../src/assets/images/image-jennie.jpg'
             description='Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
             Jennie F.'
             name='Jhennie F.'
@@ -83,10 +83,10 @@ function App() {
 
         <div className='FooterImgBlock'>
           <FooterImg
-          footerImg_one='./src/assets/images/desktop/image-gallery-milkbottles.jpg'
-          footerImg_two='./src/assets/images/desktop/image-gallery-orange.jpg'
-          footerImg_three='./src/assets/images/desktop/image-gallery-cone.jpg'
-          footerImg_four='./src/assets/images/desktop/image-gallery-sugarcubes.jpg'
+          footerImg_one='../src/assets/images/desktop/image-gallery-milkbottles.jpg'
+          footerImg_two='../src/assets/images/desktop/image-gallery-orange.jpg'
+          footerImg_three='../src/assets/images/desktop/image-gallery-cone.jpg'
+          footerImg_four='../src/assets/images/desktop/image-gallery-sugarcubes.jpg'
           />
         </div>
 
