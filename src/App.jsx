@@ -8,6 +8,8 @@ import ClientTestimonials from './ClientTestimonials'
 import FooterImg from './FooterImg'
 import Footer from './Footer'
 
+import transform from '../src/assets/images/desktop/image-transform.jpg'
+
 function App() {
   return (
     <div>
@@ -25,7 +27,7 @@ function App() {
           </div>
           <div className='Block2'>
             <MainContentImg
-              img='../src/assets/images/desktop/image-transform.jpg'
+              img={transform}
             />
           </div>
           <div className='Block3'>
