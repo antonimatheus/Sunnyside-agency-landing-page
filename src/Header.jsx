@@ -1,25 +1,28 @@
 import React from 'react'
 import './Header.css'
 
-/*if(burguer >= 950px) {
-    display.nav == 'none'
-}
-
-else(burguer >= 950px) {
-    display.nav == 'none'
-}*/
 
 
 function Header() {
+
+    function burguerButton() {
+        return (
+            <div className='burguerDisplay'>
+                {window.alert('Hello, World!')}
+            </div>
+        )
+    }
+
     return (
         <div className='header'>
             <div className='header--div'>
                 <img src="./src/assets/images/logo.svg" alt="" />
 
-                <span className='burguer'><img src="./src/assets/images/icon-hamburger.svg" alt="burguer" /></span>
+                <div onClick={burguerButton}  className='burguer'><img src="./src/assets/images/icon-hamburger.svg" alt="burguer" /></div>
 
-                <nav>
-        
+                <burguerButton />
+
+                <nav className='nav'>
                     <ul>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Services</a></li>

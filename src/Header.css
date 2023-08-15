@@ -96,7 +96,7 @@ a:hover {
 }
 
 .burguer {
-    display: flex;
+    display: none;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
@@ -110,5 +110,17 @@ a:hover {
 @media screen and (max-width: 950px) {
     .header h1 {
         text-align: center;
+    }
+
+    .burguer {
+        display: flex;
+    }
+
+    .burguerDisplay {
+        width: 100px;
+    }
+
+    .nav {
+        display: none;
     }
 }
