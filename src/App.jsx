@@ -9,6 +9,14 @@ import FooterImg from './FooterImg'
 import Footer from './Footer'
 
 import transform from '../src/assets/images/desktop/image-transform.jpg'
+import stand_out from '../src/assets/images/desktop/image-stand-out.jpg'
+import emily from '../src/assets/images/image-emily.jpg'
+import thomas from '../src/assets/images/image-thomas.jpg'
+import jennie from '../src/assets/images/image-jennie.jpg'
+import gallery_milkbottles from '../src/assets/images/desktop/image-gallery-milkbottles.jpg'
+import gallery_orange from '../src/assets/images/desktop/image-gallery-orange.jpg'
+import gallery_cone from '../src/assets/images/desktop/image-gallery-cone.jpg'
+import gallery_sugarcubes from '../src/assets/images/desktop/image-gallery-sugarcubes.jpg'
 
 function App() {
   return (
@@ -32,7 +40,7 @@ function App() {
           </div>
           <div className='Block3'>
             <MainContentImg
-              img='../src/assets/images/desktop/image-stand-out.jpg'
+              img={stand_out}
             />
           </div>
           <div className='Block4'>
@@ -62,19 +70,19 @@ function App() {
           <h1>Client testimonials</h1>
           <div className='ClientTestimonials--AppBlock'>
             <ClientTestimonials
-            img='../src/assets/images/image-emily.jpg'
+            img={emily}
             description='We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.'
             name='Emily R.'
             job='Marketing Director'
             />
             <ClientTestimonials
-            img='../src/assets/images/image-thomas.jpg'
+            img={thomas}
             description='Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.'
             name='Thomas S.'
             job='Chief Operating Officer'
             />
             <ClientTestimonials
-            img='../src/assets/images/image-jennie.jpg'
+            img={jennie}
             description='Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
             Jennie F.'
             name='Jhennie F.'
@@ -85,10 +93,10 @@ function App() {
 
         <div className='FooterImgBlock'>
           <FooterImg
-          footerImg_one='../src/assets/images/desktop/image-gallery-milkbottles.jpg'
-          footerImg_two='../src/assets/images/desktop/image-gallery-orange.jpg'
-          footerImg_three='../src/assets/images/desktop/image-gallery-cone.jpg'
-          footerImg_four='../src/assets/images/desktop/image-gallery-sugarcubes.jpg'
+          footerImg_one={gallery_milkbottles}
+          footerImg_two={gallery_orange}
+          footerImg_three={gallery_cone}
+          footerImg_four={gallery_sugarcubes}
           />
         </div>
 

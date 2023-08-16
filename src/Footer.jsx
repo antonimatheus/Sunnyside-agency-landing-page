@@ -1,6 +1,11 @@
 import React from "react";
 import "./Footer.css"
 
+import icon_facebook from "../src/assets/images/icon-facebook.svg" 
+import icon_instagram from "../src/assets/images/icon-instagram.svg"
+import icon_twitter from "../src/assets/images/icon-twitter.svg" 
+import icon_pinterest from "../src/assets/images/icon-pinterest.svg" 
+
 function Footer() {
     return (
         <div className="Footer">
@@ -18,10 +23,10 @@ function Footer() {
 
             <div>
                 <ul className="SocialMedia">
-                    <li><img src="../src/assets/images/icon-facebook.svg" alt="img" /></li>
-                    <li><img src="../src/assets/images/icon-instagram.svg" alt="img" /></li>
-                    <li><img src="../src/assets/images/icon-twitter.svg" alt="img" /></li>
-                    <li><img src="../src/assets/images/icon-pinterest.svg" alt="img" /></li>
+                    <li><img src={icon_facebook} alt="img" /></li>
+                    <li><img src={icon_instagram} alt="img" /></li>
+                    <li><img src={icon_twitter} alt="img" /></li>
+                    <li><img src={icon_pinterest} alt="img" /></li>
                 </ul>
             </div>
         </div>

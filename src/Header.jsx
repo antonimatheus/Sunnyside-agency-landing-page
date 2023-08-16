@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './Header.css';
 
+import logo from "../src/assets/images/logo.svg"
+import icon_navBurger from "../src/assets/images/icon-hamburger.svg"
+
 function Header() {
     const [burgerClicked, setBurgerClicked] = useState(false);
 
@@ -11,10 +14,10 @@ function Header() {
     return (
         <div className='header'>
             <div className='header--div'>
-                <img src="../src/assets/images/logo.svg" alt="" />
+                <img src={logo} alt="icon_logo" />
 
                 <div onClick={burgerButton1} className='burger'>
-                    <img src="../src/assets/images/icon-hamburger.svg" alt="burger" />
+                    <img src={icon_navBurger} alt="icon_burger" />
                 </div>
 
                 <nav className='nav'>
