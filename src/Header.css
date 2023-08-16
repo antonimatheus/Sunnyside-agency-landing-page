@@ -5,7 +5,6 @@
     background-size: cover;
     background-position: center ;
     background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
 .header--div {
@@ -150,6 +149,10 @@ a:hover {
         font-size: 23px;
         margin-top: 30px;
         color: rgba(0, 0, 0, 0.678);
+    }
+
+    .burger_Display ul > li > a:hover {
+        color: rgb(114, 206, 253);
     }
 
     .contact--btn {
