@@ -3,6 +3,7 @@ import './Header.css';
 
 import logo from "../src/assets/images/logo.svg"
 import icon_navBurger from "../src/assets/images/icon-hamburger.svg"
+import icon_arrow_down from "../src/assets/images/icon-arrow-down.svg"
 
 function Header() {
     const [burgerClicked, setBurgerClicked] = useState(false);
@@ -42,7 +43,7 @@ function Header() {
                 )}
 
             <h1>We are creatives</h1>
-            <img src="../src/assets/images/icon-arrow-down.svg" alt="" className='arrow--down'/>
+            <img src={icon_arrow_down} alt="" className='arrow--down'/>
         </div>
     );
 }
