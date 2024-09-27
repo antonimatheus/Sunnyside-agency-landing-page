@@ -12,7 +12,8 @@
 
 
 <p align="center">
-    <img src="https://github.com/user-attachments/assets/b25e8748-e7a0-4570-b678-02c6466a87db" alt="Image Example" width="400px">
+    <img src="https://github.com/user-attachments/assets/15f5a0e5-2fc2-43ab-916b-c6a1739029eb" alt="Image Example" width="400px">
+    <img src="https://github.com/user-attachments/assets/10d41278-a3c5-4d93-8ce4-73e60000958f" alt="Image Example" width="400px">
 </p>
 
 <h2 id="started">📌 About</h2>
