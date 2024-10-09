@@ -6,7 +6,11 @@ function MainContent(props) {
             <div className='DivInternal'>
                 <h1>{props.title}</h1>
                 <p>{props.text}</p>
-                <input type="button" value={props.input} />
+                <div className='inputButton'>
+                    <input type="button" value={props.input} />
+                    <div className='backgroundInput'></div>
+                </div>
+                
             </div>
         </div>
     )

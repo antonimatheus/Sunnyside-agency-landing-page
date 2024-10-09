@@ -65,6 +65,7 @@ body {
   width: 466px;
   height: 466px;
   gap: 35px;
+  position: relative;
   /*background-color: blue;*/
 }
 
@@ -91,6 +92,23 @@ body {
   border-radius: 10px;
   cursor: pointer;
   transition: all .5s;
+  background-color: transparent;
+}
+
+.DivInternal input:hover {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.backgroundInput {
+  width: 145px;
+  height: 10px;
+  background-color: red;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-167%, 1350%);
+  z-index: -1;
 }
 
 .mainContentImg--div {
@@ -139,6 +157,11 @@ body {
   display: flex;
   width: 100%;
   flex-direction: row;
+  background-color: white;
+}
+
+.ClientTestimonials--App {
+  background-color: white;
 }
 
 .ClientTestimonials--App h1 {
@@ -164,6 +187,7 @@ body {
   width: 340px;
   margin: 20px;
   gap: 50px;
+
 }
 
 .ClientTestimonialsBlock p {
@@ -178,6 +202,7 @@ body {
   justify-content: flex-end;
   gap: 10px;
   text-align: center;
+  background-color: white;
 }
 
 .ClientTestimonialsBlock div h2 {
@@ -213,7 +238,7 @@ body {
   .mainContent--div {
     display: flex;
     width: 100vw;
-    /*background-color: red;*/
+    background-color: white;
   }
 
   .DivInternal h1 {
@@ -226,6 +251,20 @@ body {
 
   .DivInternal input {
     margin: 0 auto;
+  }
+
+  .inputButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .backgroundInput {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 1350%);
+    z-index: -1;
   }
 
   .mainContentImg--div {

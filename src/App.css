@@ -14,11 +14,7 @@
     display: flex;
 }
 
-.Block1 input {
-    background-color: rgba(250, 212, 0, 0.3);
-}
-
-.Block1 input:hover {
+.Block1 .backgroundInput {
     background-color: var(--Yellow);
 }
 
@@ -34,11 +30,7 @@
     display: flex;
 }
 
-.Block4 input {
-    background-color: rgba(254, 120, 103, 0.3);
-}
-
-.Block4 input:hover{
+.Block4 .backgroundInput {
     background-color: var(--Softred);
 }
 
