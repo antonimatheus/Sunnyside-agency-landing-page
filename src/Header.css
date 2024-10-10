@@ -201,3 +201,11 @@ a:hover {
         filter: blur(0px);
     }
 }
+
+.arrow--down {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 70%);
+    animation: 1.5s ease-in-out motion infinite alternate;
+}
